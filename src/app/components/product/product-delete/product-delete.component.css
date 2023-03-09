@@ -1,0 +1,13 @@
+.card-main{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin-top: 8px;
+}
+

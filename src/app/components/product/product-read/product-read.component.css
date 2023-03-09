@@ -1,0 +1,13 @@
+table{
+  width: 100%;
+}
+.title-header{
+  color: #c0392b;
+}
+i.edit{
+  color: #3498db ;
+  margin-right: 8px;
+}
+i.delete{
+  color:#c0392b;
+}

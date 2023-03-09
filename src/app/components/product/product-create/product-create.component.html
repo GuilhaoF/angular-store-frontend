@@ -1,0 +1,46 @@
+<mat-card class="card-main">
+  <mat-card-title>Novo Produto</mat-card-title>
+</mat-card>
+
+<form>
+  <mat-form-field>
+    <mat-label> Nome do Produto </mat-label>
+    <input
+      matInput
+      placeholder="Ex : Playstation 5"
+      [(ngModel)]="product.name"
+      name="name"
+    />
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Preco</mat-label>
+    <input
+      currencyMask
+      [options]="{
+        prefix: 'R$ ',
+        thousands: '.',
+        decimal: ',',
+        align: 'left',
+        allowNegative: false
+      }"
+      matInput
+      type="text"
+      placeholder="0.00"
+      [(ngModel)]="product.price"
+      name="price"
+    />
+
+    <mat-icon matSuffix matTooltip="Moeda">attach_money</mat-icon>
+  </mat-form-field>
+</form>
+
+<button
+  mat-raised-button
+  class="button-product"
+  (click)="createProduct()"
+  color="primary"
+>
+  Cadastrar Produto
+</button>
+
+<button mat-raised-button (click)="cancel()">Cancelar/Voltar</button>
