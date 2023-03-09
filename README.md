@@ -1,97 +1,94 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Crud Angular Products" />
+<h1 align="center" id="top">
+  <img alt="icone-app" title="agencia-viagem-logo" width="300px"  src="https://img.icons8.com/officel/80/null/shop.png" />
+</h1>
 
-  &#xa0;
+# Angular - Store
 
-  <!-- <a href="https://crudangularproducts.netlify.app">Demo</a> -->
-</div>
+Aplicacao feita com Angular v15.2 , consumindo um backend feito com json-server para efetuar operacoes crud (create,read,update e delete).
 
-<h1 align="center">Crud Angular Products</h1>
+## ✅ Funcionalidades
 
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{YOUR_GITHUB_USERNAME}}/crud-angular-products?color=56BEB8">
+- Cadastrar Produtos
+- Alterar Produtos
+- Ver Produtos Cadastrados
+- Deletar Produtos
+- Tratamento de erros
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{YOUR_GITHUB_USERNAME}}/crud-angular-products?color=56BEB8">
+## ⚠️ Proximas Funcionalidades / Melhorias
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{YOUR_GITHUB_USERNAME}}/crud-angular-products?color=56BEB8">
+- Refatorar codigo
+- Melhorias de Usuabilidade
+- Responsividade
+- Melhorias de Performance
 
-  <img alt="License" src="https://img.shields.io/github/license/{{YOUR_GITHUB_USERNAME}}/crud-angular-products?color=56BEB8">
+## Demonstração
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/crud-angular-products?color=56BEB8" /> -->
+Desktop
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/crud-angular-products?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/crud-angular-products?color=56BEB8" /> -->
+<h2> Tela de Produtos </h2>
+<p align="center"> 
+ <img src="https://user-images.githubusercontent.com/67026555/223901199-47b6b1b8-ac15-4a07-bc62-227f47aed8a6.png" alt="app-desktop"/>
 </p>
 
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  Crud Angular Products 🚀 Under construction...  🚧
-</h4> 
-
-<hr> -->
-
-<p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+<h2> Tela de Cadastro de Produtos </h2>
+<p align="center"> 
+ <img src="https://user-images.githubusercontent.com/67026555/223901491-edcea062-496c-448b-862b-52e6008ea95a.png" alt="app-desktop"/>
 </p>
 
-<br>
+## Funcionando - Cadastro | Lista de Produtos | Alterar Produtos | Deletar Produtos
 
-## :dart: About ##
+<p align="center"> 
+ <img src="" alt="app-result"/>
+</p>
 
-Describe your project
+## 🚀 Tecnologias/Bibliotecas Ultilizadas
 
-## :sparkles: Features ##
+- [Angular](https://angular.io/)
+- [Angular Material](https://material.angular.io/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Json-Server](https://github.com/typicode/json-server)
+- [Router Angular](https://angular.io/api/router)
+- [Ng2-Currency-Mask](https://www.npmjs.com/package/ng2-currency-mask)
+- [RxJs - Operators](https://rxjs.dev/guide/operators)
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
-
-## :rocket: Technologies ##
-
-The following tools were used in this project:
-
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-
-## :white_check_mark: Requirements ##
-
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
-
-## :checkered_flag: Starting ##
+## Clonar o repositório
 
 ```bash
-# Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/crud-angular-products
-
-# Access
-$ cd crud-angular-products
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
+$ git clone https://github.com/GuilhaoF/angular-store-frontend.git
 ```
 
-## :memo: License ##
+## Instalar dependências do Projeto
+
+```bash
+   npm install
+```
+
+## Rodar Projeto
+
+```bash
+   npm start
+   ng serve
+```
+
+## Script para rodar o Server.json
+
+```bash
+    npm server-json
+```
+
+## Feedback
+
+Se você tiver algum feedback, por favor nos deixe saber por meio de luisphelipe1000@gmail.com
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-felipe-silv/)
+
+## :memo: License
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
-
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/guilhaof" target="_blank">Luis Felipe G</a>
 
 &#xa0;
 

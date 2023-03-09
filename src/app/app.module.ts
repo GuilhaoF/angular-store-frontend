@@ -24,7 +24,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { ProductReadComponent } from './components/product/product-read/product-read.component';
-import { ProductReadTwoComponent } from './components/product/product-read-two/product-read-two.component';
+
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
@@ -50,7 +50,6 @@ registerLocaleData(localePt);
     ForDirective,
     ProductCreateComponent,
     ProductReadComponent,
-    ProductReadTwoComponent,
     ProductUpdateComponent,
     ProductDeleteComponent,
   ],
