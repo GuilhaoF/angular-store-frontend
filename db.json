@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "name": "Batman",
+      "price": 4545.44,
+      "id": 9
+    },
+    {
+      "name": "Ps4",
+      "price": 4000,
+      "id": 10
+    },
+    {
+      "name": "Teste",
+      "price": 10000,
+      "id": 11
+    }
+  ]
+}

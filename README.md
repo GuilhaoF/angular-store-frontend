@@ -19,7 +19,7 @@ Aplicacao feita com Angular v15.2 , consumindo um backend feito com json-server 
 - Refatorar codigo
 - Melhorias de Usuabilidade
 - Responsividade
-- Melhorias de Performance
+- Requisicoes Programadas
 
 ## Demonstração
 
@@ -38,7 +38,7 @@ Desktop
 ## Funcionando - Cadastro | Lista de Produtos | Alterar Produtos | Deletar Produtos
 
 <p align="center"> 
- <img src="https://user-images.githubusercontent.com/67026555/223906195-a7ff7bee-b26f-4c08-b347-88e063a4801d.webm" alt="app-result"/>
+ <img src="https://user-images.githubusercontent.com/67026555/223910080-dadb83d9-18ff-45aa-8d8a-e0e198e5bf8f.gif" alt="app-result"/>
 </p>
 
 ## 🚀 Tecnologias/Bibliotecas Ultilizadas
@@ -70,10 +70,12 @@ $ git clone https://github.com/GuilhaoF/angular-store-frontend.git
    ng serve
 ```
 
-## Script para rodar o Server.json
+## Script para rodar o Db.json
 
 ```bash
-    npm server-json
+    npm run serve
+    baseUrl : http://localhost:4000/products
+
 ```
 
 ## Feedback
